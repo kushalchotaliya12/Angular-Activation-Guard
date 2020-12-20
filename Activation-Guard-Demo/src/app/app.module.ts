@@ -4,8 +4,8 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
-import { UserInfoFormComponent } from './user-info-form/user-info-form.component';
-import { OrganizationFormComponent } from './organization-form/organization-form.component';
+import { UserInfoFormComponent } from './pages/user-info-form/user-info-form.component';
+import { OrganizationFormComponent } from './pages/organization-form/organization-form.component';
 
 @NgModule({
   declarations: [
